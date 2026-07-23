@@ -4,7 +4,7 @@ An interactive Power BI dashboard that gives a real-time weather overview for a 
 
 ![Weather Dashboard Screenshot](Dashboard_screenshot.png)
 
-## 📁 Project Contents
+## 📁 Project Contents 
 
 | File | Description |
 |------|--------------|
@@ -43,7 +43,7 @@ An interactive Power BI dashboard that gives a real-time weather overview for a 
 >
 > Skipping either step may leave you looking at outdated data cached from when the file was last saved.
 
-## 📌 Notes
+## 📌 Notes Future Improvements
 
 - Update the data source connection details (API endpoint/credentials) in Power Query if you're pointing this report to your own weather data feed.
 - Feel free to fork and customize the visuals or add new pages for additional insights.
@@ -51,7 +51,7 @@ An interactive Power BI dashboard that gives a real-time weather overview for a 
 - I have just showed for next two days for 9-10 cities, you can get more data for more cities by using any weather api key.
 - I used api key from this [website](https://www.weatherapi.com/).
 
-##📈 **Future Improvements**
+## 📈 Future Improvements
 
 - 7-Day Forecast.
 - City Selection Slicer.
