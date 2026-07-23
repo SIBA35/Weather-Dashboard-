@@ -9,7 +9,7 @@ An interactive Power BI dashboard that gives a real-time weather overview for a 
 | File | Description |
 |------|--------------|
 | `weather.pbix` | Main Power BI report file containing data model, Power Query (M) transformations, and report visuals |
-| `dashboard-screenshot.jpg` | Preview image of the dashboard |
+| `Dashboard_screenshot.png` | Preview image of the dashboard |
 
 ## 📊 Dashboard Features
 
