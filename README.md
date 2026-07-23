@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard that gives a real-time weather overview for a city, including current conditions, a 3-day forecast, air quality, sunrise/sunset times, and chance of rain.
 
-![Weather Dashboard Screenshot](dashboard-screenshot.jpg)
+![Weather Dashboard Screenshot](Dashboard_screenshot.png)
 
 ## 📁 Project Contents
 
