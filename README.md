@@ -1,33 +1,38 @@
 # 🌦️ Weather Dashboard – Power BI Project
 
-An interactive Power BI dashboard that visualizes weather data using cards, a line chart, a donut chart, and a 100% stacked bar chart, with slicers for filtering by location/date.
+An interactive Power BI dashboard that gives a real-time weather overview for a city, including current conditions, a 3-day forecast, air quality, sunrise/sunset times, and chance of rain.
+
+![Weather Dashboard Screenshot](dashboard-screenshot.jpg)
 
 ## 📁 Project Contents
 
 | File | Description |
 |------|--------------|
 | `weather.pbix` | Main Power BI report file containing data model, Power Query (M) transformations, and report visuals |
+| `dashboard-screenshot.jpg` | Preview image of the dashboard |
 
 ## 📊 Dashboard Features
 
-- **KPI Cards** – quick-glance metrics (e.g., temperature, humidity, wind speed)
-- **Line Chart** – trend of weather metrics over time
-- **Donut Chart** – categorical breakdown (e.g., weather conditions)
-- **100% Stacked Bar Chart** – proportional comparison across categories
-- **Slicers** – interactive filters to drill into specific locations or time periods
+- **Current Conditions Card** – city name, last-updated timestamp, current temperature, and weather description (e.g., Mist), with quick-switch tabs for other cities (Mumbai, New Delhi, Patna)
+- **3-Day Forecast Cards** – temperature and condition icons for the upcoming days (Wed, Thu, Fri)
+- **Forecast Weather Line Chart** – temperature trend across the 3-day forecast
+- **Sunrise and Sunset** – today's sunrise and sunset times
+- **Air Quality Index (AQI)** – gauge showing overall air quality status (e.g., Hazardous) plus individual pollutant levels: SO2, PM10, PM2.5, CO, O3, NO2
+- **Chance of Rain** – 100% stacked bar chart showing rain probability by day
+- **Key Metrics Cards** – Humidity, Wind Speed, Visibility, Pressure, UV Index, and Precipitation
 
 ## 🛠️ Requirements
 
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (latest version recommended)
-- An active internet connection (if the data source is a live weather API/web feed)
-- Appropriate access/API key for the underlying data source, if applicable
+- An active internet connection (the report pulls live weather data from a weather API)
+- An API key for the weather data source, if required by your Power Query connection
 
 ## 🚀 How to Use
 
 1. **Download** `weather.pbix` from this repository.
 2. **Open** it in Power BI Desktop.
 3. Refresh the data so the report reflects current, up-to-date weather information (see the important note below).
-4. Explore the dashboard using the slicers and visuals.
+4. Use the city tabs (Mumbai / New Delhi / Patna) to switch between locations.
 
 ## ⚠️ Important: Refresh the Data Before Use
 
