@@ -51,7 +51,7 @@ An interactive Power BI dashboard that gives a real-time weather overview for a 
 - I have just showed for next two days for 9-10 cities, you can get more data for more cities by using any weather api key.
 - I used api key from this [website](https://www.weatherapi.com/).
 
-##📈 Future Improvements
+##📈 **Future Improvements**
 
 - 7-Day Forecast.
 - City Selection Slicer.
