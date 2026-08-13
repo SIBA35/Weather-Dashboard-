@@ -60,6 +60,4 @@ An interactive Power BI dashboard that gives a real-time weather overview for a 
 - Historical Weather Trends.
 - Weather Alerts.
   
-## 📄 License
 
-Add your preferred license here (e.g., MIT).
